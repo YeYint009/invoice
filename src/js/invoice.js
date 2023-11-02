@@ -60,7 +60,7 @@ const createRecordRow = (id, productName, productPrice, quantity) => {
                   
                 </button>
               </td>
-  <td class="p-3 text-end record-row-cost relative">
+  <td class="p-3 text-end relative">
   <span class='record-row-cost' >${productPrice * quantity}</span>
   <button class="record-row-del bg-neutral-500 opacity-0  group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto duration-200 flex p-2 h-full top-0 justify-center items-center absolute aspect-square right-0 translate-x-[120%] group-hover:translate-x-full">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 stroke-white pointer-events-none">
