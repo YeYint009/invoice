@@ -5,3 +5,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body { 
+  counter-reset: row;
+}
+
+/* .record-row {
+  background-color: aqua;
+} */
+
+.record-row td:first-child::before{
+  counter-increment: row;
+  content: counter(row);
+}
